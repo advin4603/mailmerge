@@ -1,0 +1,22 @@
+Mail Merge uses Template files to perform word substitutions.
+
+A template file must be made according to the following rules:
+	-> A variable may be used to indicate where a word must be substituted or not
+	-> A variable name may be declared by enclosing a variable name in Angular Brackets <> .
+	-> A variable name must only contain alphanumeric characters(a-z, A-Z, 0-9) or _ and must span across a single line.
+
+Mail Merge first asks for the template file.
+
+Then it asks whether you want to use data from a MySQL Table.
+If not then it will ask you to fill up data in a .csv file.
+
+After filling the data in the .csv file, Mail Merge will ask you if you want to save the data in a MySQL Table.
+
+Mail Merge will substitute the values given in the data in place of variable names used in the template file.
+
+Mail Merge will ask for save location.  
+
+The output will be saved in the provided output file. 
+
+NOTE: Usage of MySQL databases requires an installation of MySQL running in localhost.
+
